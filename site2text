@@ -1,6 +1,0 @@
-import requests
-
-url = input('Site address: ')
-response = requests.get(url)
-
-print(response.text)
