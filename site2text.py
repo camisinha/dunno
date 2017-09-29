@@ -1,6 +1,6 @@
-import requests
+from requests import get
 
 url = input('Site address: ')
-response = requests.get(url).text
+response = get(url).text
 
 print(response)
