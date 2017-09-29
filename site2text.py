@@ -1,6 +1,6 @@
 from requests import get
+from sys import argv
 
-url = input('Site address: ')
-response = get(url).text
+response = get(argv[1]).text
 
 print(response)
